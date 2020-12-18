@@ -1,4 +1,4 @@
-module.exports = async event => {
+exports.handler = async event => {
   const data = {
     message: 'Hello, World!',
     input: event
