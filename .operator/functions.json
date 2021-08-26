@@ -1,5 +1,6 @@
 {
-  "project": {
+  "projects": [{
+    "projectId": "hello-world",
     "name": "Operator Example NodeJS"
-  }
+  }]
 }
