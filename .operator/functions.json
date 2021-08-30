@@ -2,7 +2,8 @@
   "projects": [{
     "projectId": "hello-world",
     "name": "Operator Example NodeJS",
-    "restApiId": "o0rws73pe2"
+    "restApiId": "o0rws73pe2",
+    "restApiRegion": "us-east-1"
   }],
   "functions": [{
     "provider": "aws",
