@@ -1,21 +1,25 @@
 {
-  "projects": [{
-    "projectId": "hello-world",
-    "name": "Operator Example NodeJS",
-    "restApiId": "o0rws73pe2",
-    "restApiRegion": "us-east-1"
-  }],
-  "functions": [{
-    "provider": "aws",
-    "projectId": "hello-world",
-    "arn": "arn:aws:lambda:us-east-1:137418857087:function:hello-world-index",
-    "relativeCode": "/index.js",
-    "usage": {
-      "type": "https",
-      "apiMethod": "POST",
-      "apiPath": "/test2",
-      "apiResourceId": "ax32vk",
-      "corsMethod": true
+  "projects": [
+    {
+      "projectId": "hello-world",
+      "name": "Operator Example NodeJS",
+      "restApiId": "o0rws73pe2",
+      "restApiRegion": "us-east-1"
     }
-  }]
+  ],
+  "functions": [
+    {
+      "provider": "aws",
+      "projectId": "hello-world",
+      "arn": "arn:aws:lambda:us-east-1:137418857087:function:hello-world-index",
+      "relativeCode": "/index.js",
+      "usage": {
+        "type": "https",
+        "apiMethod": "ANY",
+        "apiPath": "/test2",
+        "apiResourceId": "ax32vk",
+        "corsMethod": false
+      }
+    }
+  ]
 }
