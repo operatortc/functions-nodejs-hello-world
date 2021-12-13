@@ -1,0 +1,140 @@
+{
+  "localhost": {
+    "provider": "aws",
+    "functionName": "NodejsHelloWorld1",
+    "lastDeployed": null,
+    "properties": {
+      "https": {
+        "apiMethod": "GET",
+        "apiPath": "/hello"
+      },
+      "sns": null,
+      "scheduled": null,
+      "regionName": {
+        "value": "us-east-1"
+      },
+      "relativeFile": {
+        "value": [
+          "..",
+          "index.js"
+        ]
+      },
+      "relativeFolder": {
+        "value": [
+          ".."
+        ]
+      },
+      "environment": {
+        "value": {}
+      },
+      "policies": {
+        "value": []
+      },
+      "handler": {
+        "value": "index.handler"
+      },
+      "timeout": {
+        "value": 10
+      },
+      "memorySize": {
+        "value": 256
+      },
+      "runtime": {
+        "value": "nodejs14.x"
+      }
+    }
+  },
+  "137418857087": {
+    "provider": "aws",
+    "functionName": "NodejsHelloWorld1",
+    "lastDeployed": "2021-12-13T19:46:09.154+0000",
+    "properties": {
+      "https": {
+        "apiMethod": "GET",
+        "apiPath": "/hello",
+        "apiResourceId": "9rkvso",
+        "restApiId": "a23nielkte",
+        "restApiRegion": "us-east-1"
+      },
+      "sns": null,
+      "scheduled": null,
+      "regionName": {
+        "value": "us-east-1",
+        "deployed": false
+      },
+      "relativeFile": {
+        "value": [
+          "..",
+          "index.js"
+        ],
+        "deployed": false
+      },
+      "relativeFolder": {
+        "value": [
+          ".."
+        ],
+        "deployed": false
+      },
+      "environment": {
+        "value": {},
+        "deployed": false
+      },
+      "policies": {
+        "value": []
+      },
+      "handler": {
+        "value": "index.handler"
+      },
+      "timeout": {
+        "value": 10,
+        "deployed": false
+      },
+      "memorySize": {
+        "value": 256,
+        "deployed": false
+      },
+      "runtime": {
+        "value": "nodejs14.x",
+        "deployed": false
+      }
+    },
+    "createResponse": {
+      "FunctionName": "NodejsHelloWorld1",
+      "FunctionArn": "arn:aws:lambda:us-east-1:137418857087:function:NodejsHelloWorld1",
+      "Runtime": "nodejs14.x",
+      "Role": "arn:aws:iam::137418857087:role/operator-function-us-east-1-NodejsHelloWorld1",
+      "Handler": "index.handler",
+      "CodeSize": 31579,
+      "Description": "",
+      "Timeout": 3,
+      "MemorySize": 128,
+      "LastModified": "2021-12-13T19:46:09.154+0000",
+      "CodeSha256": "tNxKLgKhh26v67Qanhau5rUv8qHuvUV/CgkGZrPrfbM=",
+      "Version": "1",
+      "KMSKeyArn": null,
+      "TracingConfig": {
+        "Mode": "PassThrough"
+      },
+      "MasterArn": null,
+      "RevisionId": "61024573-873c-4118-be9a-125c4b51f6fb",
+      "State": "Pending",
+      "StateReason": "The function is being created.",
+      "StateReasonCode": "Creating",
+      "LastUpdateStatus": null,
+      "LastUpdateStatusReason": null,
+      "LastUpdateStatusReasonCode": null,
+      "PackageType": "Zip",
+      "SigningProfileVersionArn": null,
+      "SigningJobArn": null,
+      "Architectures": [
+        "x86_64"
+      ],
+      "Tags": {
+        "operator:version": "1"
+      },
+      "regionName": "us-east-1",
+      "profileName": "optoolco2"
+    },
+    "arn": "arn:aws:lambda:us-east-1:137418857087:function:NodejsHelloWorld1"
+  }
+}
