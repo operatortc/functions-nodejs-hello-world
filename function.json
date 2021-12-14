@@ -46,14 +46,14 @@
   },
   "137418857087": {
     "provider": "aws",
-    "functionName": "NodejsHelloWorld1",
-    "lastDeployed": "2021-12-13T19:46:09.154+0000",
+    "functionName": "NodejsHelloWorld2",
+    "lastDeployed": "2021-12-14T15:28:53.853+0000",
     "properties": {
       "https": {
         "apiMethod": "GET",
         "apiPath": "/hello",
-        "apiResourceId": "9rkvso",
-        "restApiId": "a23nielkte",
+        "apiResourceId": "4i91ce",
+        "restApiId": "6sfhlcgsul",
         "restApiRegion": "us-east-1"
       },
       "sns": null,
@@ -99,24 +99,24 @@
       }
     },
     "createResponse": {
-      "FunctionName": "NodejsHelloWorld1",
-      "FunctionArn": "arn:aws:lambda:us-east-1:137418857087:function:NodejsHelloWorld1",
+      "FunctionName": "NodejsHelloWorld2",
+      "FunctionArn": "arn:aws:lambda:us-east-1:137418857087:function:NodejsHelloWorld2",
       "Runtime": "nodejs14.x",
-      "Role": "arn:aws:iam::137418857087:role/operator-function-us-east-1-NodejsHelloWorld1",
+      "Role": "arn:aws:iam::137418857087:role/operator-function-us-east-1-NodejsHelloWorld2",
       "Handler": "index.handler",
-      "CodeSize": 31579,
+      "CodeSize": 33586,
       "Description": "",
       "Timeout": 3,
       "MemorySize": 128,
-      "LastModified": "2021-12-13T19:46:09.154+0000",
-      "CodeSha256": "tNxKLgKhh26v67Qanhau5rUv8qHuvUV/CgkGZrPrfbM=",
+      "LastModified": "2021-12-14T15:28:53.853+0000",
+      "CodeSha256": "1D70UvGrHx1ubqC03S4OVGnb+cfG0t8c9H5uGMsETPs=",
       "Version": "1",
       "KMSKeyArn": null,
       "TracingConfig": {
         "Mode": "PassThrough"
       },
       "MasterArn": null,
-      "RevisionId": "61024573-873c-4118-be9a-125c4b51f6fb",
+      "RevisionId": "b3f1726c-9983-4b15-89d6-1512138bbbe3",
       "State": "Pending",
       "StateReason": "The function is being created.",
       "StateReasonCode": "Creating",
@@ -135,6 +135,6 @@
       "regionName": "us-east-1",
       "profileName": "optoolco2"
     },
-    "arn": "arn:aws:lambda:us-east-1:137418857087:function:NodejsHelloWorld1"
+    "arn": "arn:aws:lambda:us-east-1:137418857087:function:NodejsHelloWorld2"
   }
 }
